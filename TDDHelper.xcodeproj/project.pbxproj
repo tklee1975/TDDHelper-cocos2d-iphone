@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73ABB47F180C3C9700D45F25 /* TDDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ABB47E180C3C9700D45F25 /* TDDHelper.m */; };
 		73B8F06C180BFB9E006E040E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B8F06B180BFB9E006E040E /* QuartzCore.framework */; };
 		73B8F06E180BFB9E006E040E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B8F06D180BFB9E006E040E /* OpenGLES.framework */; };
 		73B8F070180BFB9E006E040E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B8F06F180BFB9E006E040E /* OpenAL.framework */; };
@@ -156,6 +157,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73ABB47D180C3C9700D45F25 /* TDDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDHelper.h; sourceTree = "<group>"; };
+		73ABB47E180C3C9700D45F25 /* TDDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDHelper.m; sourceTree = "<group>"; };
 		73B8F068180BFB9E006E040E /* TDDHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B8F06B180BFB9E006E040E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		73B8F06D180BFB9E006E040E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -927,6 +930,8 @@
 				73B8F3C4180BFC80006E040E /* TDDBaseTest.m */,
 				73B8F3C5180BFC80006E040E /* TDDSuiteScene.h */,
 				73B8F3C6180BFC80006E040E /* TDDSuiteScene.m */,
+				73ABB47D180C3C9700D45F25 /* TDDHelper.h */,
+				73ABB47E180C3C9700D45F25 /* TDDHelper.m */,
 			);
 			path = TDDHelper;
 			sourceTree = "<group>";
@@ -1082,6 +1087,7 @@
 				73B8F3A7180BFC24006E040E /* mat3.c in Sources */,
 				73B8F35A180BFC24006E040E /* ccFPSImages.m in Sources */,
 				73B8F3AE180BFC24006E040E /* vec2.c in Sources */,
+				73ABB47F180C3C9700D45F25 /* TDDHelper.m in Sources */,
 				73B8F394180BFC24006E040E /* ccUtils.c in Sources */,
 				73B8F345180BFC24006E040E /* CCActionEase.m in Sources */,
 				73B8F36D180BFC24006E040E /* CCPhysicsDebugNode.m in Sources */,
@@ -1258,6 +1264,7 @@
 				73B8F21D180BFBA0006E040E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

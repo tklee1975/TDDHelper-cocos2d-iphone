@@ -5,4 +5,7 @@ TDDHelper Development Log
 ---------------------------------------
 
 2013-10-14 / tklee1975
+- Add: Helper class to add the test button easily
+
+2013-10-14 / tklee1975
 - Initial project source

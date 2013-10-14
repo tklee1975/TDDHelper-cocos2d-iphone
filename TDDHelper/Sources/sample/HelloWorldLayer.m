@@ -10,6 +10,9 @@
 // Import the interfaces
 #import "HelloWorldLayer.h"
 
+#import "TDDHelper.h"
+#import "MainTestScene.h"
+
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
 
@@ -101,6 +104,10 @@
 		
 		// Add the menu to the layer
 		[self addChild:menu];
+		
+		// Add the TDD Button
+		[TDDHelper addTestButton:self sceneName:@"MainTestScene" position:ccp(100, 50)];
+		// [TDDHelper instance].testScene = [[]
 
 	}
 	return self;

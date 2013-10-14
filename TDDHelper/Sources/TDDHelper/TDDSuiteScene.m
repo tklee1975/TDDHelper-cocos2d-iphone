@@ -148,7 +148,7 @@
 	CGSize size = [self getScreenSize];
 	CGRect rect = CGRectMake(0, 0, size.width, ROW_HEIGHT);
 	UILabel *label = [[UILabel alloc] initWithFrame:rect];
-	label.text = [NSString stringWithFormat:@"%d: %@", row, str];
+	label.text = [NSString stringWithFormat:@"%@", str];
 	[cell addSubview:label];
 	[label release];
 
